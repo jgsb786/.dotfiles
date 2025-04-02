@@ -1,0 +1,12 @@
+[credential "https://github.com"]
+	helper = 
+[user]
+	name = jgsb 
+	email = bivar.cia@gmail.com
+[core]
+	editor = nvim
+[credential]
+	helper = cache
+[submodule]
+	recurse = true
+
