@@ -38,7 +38,12 @@
 ###############
 
 # Compiling
-alias ccw='cc -Wall -Wextra -Werror -g'
+alias tc='cc -Wall -Wextra -Werror -g'
+# shell
+alias rmout='~/my_scripts/rmout.sh'
+alias testfn='~/my_scripts/testfn.sh'
+alias l='ls -a'
+alias tn='norminette -R CheckForbiddenSourceHeader'
 
 # Neovim
 alias v='nvim'

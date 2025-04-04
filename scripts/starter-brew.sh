@@ -61,8 +61,8 @@ brew install --cask font-fira-code-nerd-font
 
 # Final status message
 if [ $ERRORS -eq 0 ]; then
-    echo "${B}${GRN}󰄬 ${PRP}${USER}${YEL}'s .dotfiles symlinking completed successfully. ${GRN}💻${D}"
+    echo "${B}${GRN}󰄬 ${PRP}${USER}${YEL}'s symlinking completed successfully. ${GRN}💻${D}"
 else
-    echo "${B}${RED}󰄮 ${PRP}${USER}${YEL}'s .dotfiles symlinking completed with $ERRORS errors. ${RED}⚠${D}" >&2
+    echo "${B}${RED}󰄮 ${PRP}${USER}${YEL}'s symlinking completed with $ERRORS errors. ${RED}⚠${D}" >&2
     # exit 1
 fi
